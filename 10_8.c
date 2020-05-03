@@ -1,7 +1,4 @@
 // **
-// Write a version of the statcheck program in Figure 10.10 called fstatcheck
-// that takes a descriptor number on the command line rather than a filename.
-
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <sys/types.h>
@@ -23,7 +20,7 @@ mode_t fstatcheck(int fd) {
 int main(int argc, char **argv) {
 
   if (argc != 2) {
-    fprintf(stderr, "%s: Please specify the file descriptor.\n", argv[0]);
+    fprintf(stderr, "%s: Silakan tentukan deskriptor file.\n", argv[0]);
     return EXIT_FAILURE;
   }
 
