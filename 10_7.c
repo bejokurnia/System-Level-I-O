@@ -1,6 +1,4 @@
 // *
-// Modify the cpfile program in Figure 10.5 it uses the RIO functions to copy
-// standard input to standard output, MAXBUF bytes at a time.
 
 #include "csapp.h"
 
